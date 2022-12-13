@@ -13,9 +13,9 @@ int main(void)
 	l = 'z';
 	while (l >= 'a')
 	{
-		printf("%c", l);
+		putchar(l);
 		l--;
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
