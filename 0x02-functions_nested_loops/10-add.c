@@ -8,7 +8,7 @@
  * Return: Always sum
  */
 
-int add(int cal, int lili);
+int add(int cal, int lili)
 {
 	int sum = cal + lili;
 
