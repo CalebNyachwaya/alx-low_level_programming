@@ -1,31 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* positive_or_negative - prints if integer is positive or negative
+* @i: The interger to be checked
+*
+* Return: 0
+*/
 
-int main(void)
+void positive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-if (n > 0)
-{
-	printf("%d is positive\n", n);
+	i = 8;
+	positive_or_negative(i);
 }
-else if (n == 0)
-{
-printf("%d is zero\n", n);
-}
-else
-{
-printf("%d is negative\n", n);
-}
-return (0);
-}
-
