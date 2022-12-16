@@ -6,6 +6,8 @@
 
 void print_numbers(void)
 {
-	for (i = 0; i <= 9; i++)
-		putchar(i);
+	int n;
+
+	for (n = 0; n <= 9; n++)
+		_putchar((nxxum % 10) + '0');
 }
