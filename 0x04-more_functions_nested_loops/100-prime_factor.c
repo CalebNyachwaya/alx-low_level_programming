@@ -10,11 +10,11 @@ int main(void)
 {
 	long num = 612852475143, div;
 
-	while (div < (num2))
+	while (div < (num / 2))
 	{
-		if ((num2) == 0)
+		if ((num % 2) == 0)
 		{
-			num 2;
+			num /= 2;
 			continue;
 		}
 
