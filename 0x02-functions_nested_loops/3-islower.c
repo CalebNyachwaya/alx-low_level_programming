@@ -15,7 +15,7 @@ int _islower(int c)
 *	else
 *		return (0);
 */
-	if (islower(c) == 0)
+	if (_islower(c) == 0)
 		return (0);
 	else
 		return (1);
