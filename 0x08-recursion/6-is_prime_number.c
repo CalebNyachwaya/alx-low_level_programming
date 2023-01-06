@@ -2,7 +2,7 @@
 
 /**
  * _prime - check if the number is prime
- * @number: is the number to validate
+ * @num: is the number to validate
  * @divisor: is the divisor number to take
  *
  * Return: the result of whether it is prime or not
