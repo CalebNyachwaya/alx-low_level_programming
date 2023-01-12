@@ -1,5 +1,5 @@
-### 0x0B. C - malloc, free
-- [0-create_array.c](./0-create_array.c) - Creating a function that creates array of characters
+### Malloc, Free
+- [x] [0-create_array.c](./0-create_array.c) - Creating a function that creates array of characters
 
 |Column 1 📀	|Column 2	|Column 3	|
 |---------------|---------------|---------------|
