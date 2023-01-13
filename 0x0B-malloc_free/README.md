@@ -1,4 +1,4 @@
-## Malloc, Free
+## ⚓Malloc, Free
 - [x] [0-create_array.c](./0-create_array.c) - Creating a function that creates array of characters
 - [x] [1-strdup.c](./1-strdup.c) - returns a pointer to a newly allocated space in memory
 - [x] [2-str_concat.c](./2-str_concat.c) - a function that concatenates two strings.
