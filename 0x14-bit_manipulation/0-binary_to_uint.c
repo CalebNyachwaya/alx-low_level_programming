@@ -7,25 +7,23 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i, length, decimal;
+	unsigned int num = 0, mult = 1;
+	int len;
 
-	i = length = decimal = 0;
 	if (b == NULL)
 		return (0);
-	while (b[length] != '\0')
+
+	for (len = 0; b[len];)
+		len++;
+
+	for (len -= 1; len >= 0; len--)
 	{
-		if (b[length] == '0' || b[length] == '1')
-			length++;
-		else
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
+
+		num += (b[len] - '0') * mult;
+		mult *= 2;
 	}
 
-	while (i < length)
-	{
-		decimal = decimal << 1;
-		if (b[i] == '1')
-			decimal += 1;
-		i++;
-	}
-	return (decimal);
+	return (num);
 }
